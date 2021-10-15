@@ -99,6 +99,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(255, 128, 0, 0.75);
   
   }
   
@@ -187,6 +188,7 @@ html {
     margin-bottom: 1.25rem;
     font-size: 1.125rem;
     font-weight: bold;
+    color: #9b9b9b;
   
   }
   
@@ -238,7 +240,7 @@ html {
   /* Red Swatches */
   
   .reds .base-color {
-    color: #ff002b;
+    color: hsl(350%, 100%, 50%);
   }
   
   /* Red lightness decreases by 15 */
@@ -251,15 +253,15 @@ html {
   }
   
   .reds .lightness .color-3 {
-    background-color: hsl(350, 100%, 50%);
+    background-color: hsl(350, 100%, 80%);
   }
   
   .reds .lightness .color-4 {
-    background-color: hsl(350, 100%, 35%);
+    background-color: hsl(350, 100%, 80%);
   }
   
   .reds .lightness .color-5 {
-    background-color: hsl(350, 100%, 20%);
+    background-color: hsl(350, 100%, 80%);
   }
   
   /* Red saturation decreases by 15 */
@@ -463,6 +465,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
   
   }
   
